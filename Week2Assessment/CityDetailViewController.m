@@ -92,6 +92,11 @@
 
 }
 
+- (IBAction) prepareForUnwindSegue: (UIStoryboardSegue *)segue
+{
+
+}
+
 
 // Prepare for segue method to pass the current city to WikipediaViewController
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
